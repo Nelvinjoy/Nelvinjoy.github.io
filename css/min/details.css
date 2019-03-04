@@ -1,0 +1,41 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+.colornav {
+  background-color: #534741; }
+  nav {
+    font-size: 20px;
+    background-color: #000000; }
+    nav ul li {
+      display: inline-block; }
+      nav ul li a {
+        display: block;
+        padding: 20px;
+        color: #FFFFFF;
+        border-right: 1px solid #FFFFFF;
+        border-right: 1px solid #FFFFFF;
+        transition: all 300ms ease-in-out; }
+        nav ul li a:hover {
+          color: #000000;
+          background-color: #FFFFFF; }
+          h3{
+            font-family: 'ZCOOL QingKe HuangYou';
+            font-size: 27px;
+            text-decoration:underline;
+          }
+          p{
+            font-size: 20px;
+          }
+          footer {
+            background-color: #534741; }
+
+          .pre {
+            font-size: 28px;
+            font-weight: bolder; }
+
+          .footer {
+            font-size: 29px;
+            text-align: center;
+            font-weight: 400px; }
+
+          .media {
+            float: right; }
