@@ -1,18 +1,16 @@
 @import "variables";
 
-  .shape{
-    align-content: center: center;
-  }
-  .carousel{
-    position: relative;
-    align-content: center;
-    height: 75%;
-  }
+
+.fontnews{
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-weight: bold;
+    font-size: 29px;
+}
   .colornav{
     background-color: #534741;
   }
 body{
-  font-family: $fonts-text;
+  font-family: 'ZCOOL QingKe HuangYou';
   background-color: $asphalt;
   color: $clouds;
   font-size: $text-font-size;
@@ -37,8 +35,44 @@ nav{
         &:hover{
           color: $clouds;
           background-color: $asphalt;
-        }
-      }
-    }
-  }
+        }}}}}
+p{
+  color:black;
+  font-weight: bold;
+}
+.news{
+  font-size: 50px;
+  text-align: center;
+  font-family: 'ZCOOL QingKe HuangYou';
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+.col{
+padding:5px 5px 5px 5px;
+justify-content: space-around;
+}
+.text1{
+  font-size: 18px;
+}
+.captionphoto{
+  position: relative;
+  left: 100px;
+  text-align: center;
+  text-decoration: overline;
+ font-size: 20px;
+}
+footer{
+  background-color: #534741;
+}
+.pre{
+  font-size: 28px;
+  font-weight: bolder;
+}
+.footer{
+  font-size: 29px;
+  text-align: center;
+  font-weight: 400px;
+}
+.media{
+  float:right;
 }
